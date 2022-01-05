@@ -1,0 +1,49 @@
+
+
+span{
+    color:tomato;
+   
+ }
+ 
+
+a{
+    text-decoration: none;
+    background-color: violet;
+    padding:10px 40px;
+    border-radius: 5px;
+    
+}
+
+
+.half-width{
+    width:50%;
+    
+}
+#Explore{
+    padding-top:80px;
+
+}
+    
+
+.half-width h1{
+    border-left:2px solid red; 
+    font-size:35px;
+}
+
+
+.half-width img{
+    width:70%;
+    
+}
+
+.navbar{
+     display: flex;
+    margin-left:50px;
+    width:100%;
+    padding-left: 40px;
+}
+
+
+.last{
+    padding-top: 20px;
+}
