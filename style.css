@@ -24,7 +24,7 @@ a{
 }
     
 
-.half-width h1{
+#head-das{
     border-left:2px solid red; 
     font-size:35px;
 }
@@ -91,3 +91,24 @@ a{
 }
 
 /*third section start*/
+.service{
+display: flex;
+
+
+}
+
+.img-tool{
+  
+    padding-left: 80px;
+  
+}
+.img-tool img{
+width:250px;
+}
+
+.para-tool{
+  
+    padding-top:50px;
+    padding-right:50px;
+   
+}
