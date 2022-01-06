@@ -3,17 +3,17 @@ body{
     margin:0;
 }
 span{
-    color:tomato;
+    color:rgb(255, 153, 57);
    
  }
  
 
 a{
     text-decoration: none;
-    background-color: violet;
+    background-color:#f34e4e;
     padding:10px 40px;
     border-radius: 5px;
-    
+    color:white;
 }
 
 
@@ -100,7 +100,12 @@ a{
 display: flex;
 
 }
-
+/* .shape{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: left;
+} */
 
 .img-tool{
   padding-top: 20px;
