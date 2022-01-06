@@ -3,14 +3,14 @@ body{
     margin:0;
 }
 span{
-    color:rgb(255, 153, 57);
+    color:rgb(14, 153, 207);
    
  }
  
 
 a{
     text-decoration: none;
-    background-color:#f34e4e;
+    background-color:#f3da4e;
     padding:10px 40px;
     border-radius: 5px;
     color:white;
@@ -29,7 +29,7 @@ a{
          
 
 #head-das{
-    border-left:5px solid red;
+    border-left:5px solid rgb(204, 29, 248);
     font-size:40px;
     padding:5px;
   
