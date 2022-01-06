@@ -13,7 +13,7 @@ a{
     background-color:#f3da4e;
     padding:10px 40px;
     border-radius: 5px;
-    color:white;
+    color:rgb(29, 13, 255);
 }
 
 
@@ -137,19 +137,6 @@ width:300px;
 
 
 
-/**Footer section**/
-
-.footer-section{
-    background-color:black;
-    color:white;
-    text-align: center;
-    height: 150px;
-    padding-top: 30px;
-}
-
-.footer-section small{
-    font-family: 'Moon Dance', cursive;
-}
 
 
 /**Five section**/
@@ -179,4 +166,18 @@ width:300px;
     background-color: rgb(250, 252, 134);
     border-radius:10px;
     box-shadow:15px 15px 40px rgb(158, 120, 120);
+}
+
+/**Footer section**/
+
+.footer-section{
+    background-color:black;
+    color:white;
+    text-align: center;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.footer-section small{
+    font-family: 'Moon Dance', cursive;
 }
