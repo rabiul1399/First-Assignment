@@ -1,4 +1,7 @@
-
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
 span{
     color:tomato;
    
@@ -16,17 +19,18 @@ a{
 
 .half-width{
     width:50%;
+    padding-top: 20px;
     
 }
 #Explore{
-    padding-top:80px;
+    padding-top:50px;
 
 }
     
 
 #head-das{
     border-left:2px solid red; 
-    font-size:35px;
+    font-size:40px;
 
    
 }
@@ -58,7 +62,7 @@ a{
 #web-mission{
     text-align: center;
     padding-top: 30px;
-    font-size:35px
+    font-size:40px
 
 }
 .card{
@@ -69,7 +73,10 @@ a{
 
 .card-box{
     width:33%;
-  
+    margin:10px;
+    padding:10px;
+    border-radius: 15px;
+ 
 }
 
 .card img{
@@ -77,39 +84,32 @@ a{
 }
 
 .box-mission{
-    margin:10px;
-    padding:10px;
     background-color: rgb(195, 247, 241);
-    border-radius: 15px;
 }
 .box-vission{
-    margin:10px;
-    padding:10px;
-    background-color: rgb(247, 207, 207);
-    border-radius: 15px;
+    background-color: rgb(247, 207, 207); 
 }
 
 .box-goals{
-    margin:10px;
-    padding:10px;
     background-color: rgb(245, 220, 199);
-    border-radius: 15px;
 }
 
 /*third section start*/
+
 .service{
 display: flex;
 
-
 }
 
+
 .img-tool{
-  
+  padding-top: 20px;
     padding-left: 80px;
+  height: 50px;
   
 }
 .img-tool img{
-width:250px;
+width:280px;
 }
 
 .para-tool{
@@ -122,16 +122,59 @@ width:250px;
 /**Four section Start**/
 
 .global-comunity{
-    width:50%;
     padding:80px 70px;
     margin:10px;
 }
 
-.global-img{
-    width:50%;
-}
+
 
 .global-img img{
     padding:20px 40px;
     width:300px;
+}
+
+
+
+/**Footer section**/
+
+.footer-section{
+    background-color:black;
+    color:white;
+    text-align: center;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.footer-section small{
+    font-family: 'Moon Dance', cursive;
+}
+
+
+/**Five section**/
+
+#about-me{
+    display:flex;
+    background-color: rgb(172, 170, 170);
+}
+
+.me{
+    text-align:center;
+    font-size:40px;
+    color:indigo;
+   
+}
+
+.about-img{
+    padding-left: 70px;
+    padding-bottom: 70px;
+}
+
+.my-skils{
+    width:250px;
+    padding:50px;
+    margin:40px;
+    height:250px;
+    background-color: rgb(250, 252, 134);
+    border-radius:10px;
+    box-shadow:15px 15px 40px rgb(158, 120, 120);
 }
